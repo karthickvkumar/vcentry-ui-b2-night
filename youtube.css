@@ -1,0 +1,114 @@
+body{
+  margin: 0px;
+}
+
+.main-body{
+  border: 2px solid;
+  height: 99vh;
+}
+
+.header{
+  border: 2px solid red;
+  height: 60px; 
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content{
+  border: 2px solid red;
+  height: 91%;
+  display: flex;
+  flex-direction: row; 
+}
+
+.sidebar{
+  border: 2px solid green;
+    width: 20%;
+    overflow: auto;
+}
+
+.content{
+  border: 2px solid green;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list{
+  height: 45px;
+    border: 2px solid;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.logo{
+  width: 20%;
+    border: 2px solid blue;
+}
+
+.search{
+  border: 2px solid blue;
+  width: 65%;
+}
+
+.settings{
+  border: 2px solid blue;
+    width: 15%;
+}
+
+.video-type{
+  height: 50px;
+  border: 2px solid;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.video-list{
+  border: 2px solid;
+  height: 92%;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.video-gener{
+  border: 2px solid blue;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.video{
+  border: 2px solid red;
+    width: 260px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.video-thumb{
+  border: 2px solid black;
+  height: 60%;
+}
+
+.video-info{
+  display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    height: 40%;
+}
+
+.video-user-img{
+  border: 2px solid blue;
+  width: 20%;
+}
+
+.video-desc{
+  border: 2px solid blue;
+    width: 80%;
+}
