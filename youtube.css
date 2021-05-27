@@ -44,6 +44,10 @@ body{
 .logo{
   width: 20%;
     border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .search{
@@ -111,4 +115,12 @@ body{
 .video-desc{
   border: 2px solid blue;
     width: 80%;
+}
+
+.icon-size{
+  font-size: 24px;
+}
+
+.logo-size{
+  width : 40%
 }
