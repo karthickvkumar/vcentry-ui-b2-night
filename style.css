@@ -199,3 +199,11 @@ img{
 .img-round{
   border-radius: 100px;
 }
+
+.bgRed{
+  background-color : red !important;
+}
+
+.fontWhite{
+  color: white !important;
+}
